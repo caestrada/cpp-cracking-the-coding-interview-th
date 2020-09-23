@@ -1,0 +1,5 @@
+# Compile Object Files
+*.o
+
+# MacOS
+.DS_Store
