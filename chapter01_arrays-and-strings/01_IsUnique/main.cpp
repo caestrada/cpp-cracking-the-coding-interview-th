@@ -40,9 +40,8 @@ bool isUnique_hash(const string str) {
     return true;
 }
 
-int main(int argc, const char * argv[]) {
-    // true, false true
-    vector<string> words = {"abc", "abcc", "xyz"};
+int main() {
+    vector<string> words = {"abc", "abcc", "xyz"};  // true, false true
     for (string word : words) {
         cout << "IsUnique? " << boolalpha <<  isUnique_hash(word) << endl;
     }
